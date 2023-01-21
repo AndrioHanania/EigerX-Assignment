@@ -1,0 +1,23 @@
+The requested method and his test method is
+inside 'DepartmentWithEmp' class.
+To run the test you need to:
+
+1. make sure the you have postgres on your computer
+
+2. you have already created DB called 'eigerxdb'.
+   Or  just change the prop on the application.properties file.
+
+3. The intellij need to be connected to your DB.
+
+4. if you dont have any data in your DB you can run
+   the application from the 'EigerXAssignmentApplication' class
+   (i have created configuration class that put data in the DB,
+   for the specific test).
+   BEFORE YOU CAN RUN THE APPLICATION:
+   you need to put the right data inside the application.properties file,
+   like:
+   username and password for your postgres user (i deleted mine for security purpose),
+   the name of the DB,
+   unused port for the application.
+
+5. FINALLY: you can run the test.
